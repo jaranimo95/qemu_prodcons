@@ -1,0 +1,5 @@
+README
+
+Put prodcons.h, syscalls.h, and unistd.h in the "linux-2.6.23.1/include/linux subdirectory". That's how I tested it.
+
+Includes prodcons.c (source file), prodcons.h (source header), sys.c (up/down/enqueue/dequeue implementations included), syscall_table.S (syscall lookup table), syscalls.h (syscall header), and unistd.h (syscall lookup table)
